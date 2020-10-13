@@ -54,3 +54,31 @@ header,
     height: 50px;
     font-size: 16px;
 }
+#email{
+    background-color: rgba(0,0,0,0);
+    color: white;
+    border: none;
+    outline: none;
+    height: 30px;
+    box-shadow: 0 1px 0 0 #fff;
+    transition:height ls;
+    -webkit-transition: height 1s;
+}
+#email:focus {
+    height: 50px;
+    font-size: 16px;
+}
+#cpass{
+    background-color: rgba(0,0,0,0);
+    color: white;
+    border: none;
+    outline: none;
+    height: 30px;
+    box-shadow: 0 1px 0 0 #fff;
+    transition:height ls;
+    -webkit-transition: height 1s;
+}
+#cpass:focus {
+    height: 50px;
+    font-size: 16px;
+}
